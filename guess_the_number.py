@@ -1,11 +1,4 @@
 # This is 'Gues the number game'
-from distributed import Client 
-
-if __name__ == '__main__':
-    client = Client()
-    print(client)
-
-
 import random
 
 secretNumber = random.randint(1, 100)
